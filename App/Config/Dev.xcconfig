@@ -1,0 +1,7 @@
+#include "Shared.xcconfig"
+
+// Local backend (from the sibling `porto` repo at localhost:3002).
+API_BASE_URL = http:/$()/localhost:3002/api
+
+// Allow cleartext localhost / LAN dev in Debug.
+ATS_ALLOWS_LOCAL_NETWORKING = YES

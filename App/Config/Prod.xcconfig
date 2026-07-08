@@ -1,0 +1,6 @@
+#include "Shared.xcconfig"
+
+// TODO(Wave 3): set to the real Railway deployment URL before release.
+API_BASE_URL = https:/$()/porto.up.railway.app/api
+
+ATS_ALLOWS_LOCAL_NETWORKING = NO
