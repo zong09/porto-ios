@@ -20,3 +20,6 @@ Tests/Fixtures/*.json
 # Secrets
 *.local.xcconfig
 App/*/Info.generated.plist
+
+# Design handoffs
+design_handoff_ios_icon/
