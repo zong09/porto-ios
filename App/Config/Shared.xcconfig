@@ -1,0 +1,12 @@
+// Shared build settings for all configurations.
+// FROZEN (Wave 0 / Wave 3 only). Agents must not edit config files.
+
+PRODUCT_BUNDLE_IDENTIFIER = co.porto.ios
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 5.9
+DEVELOPMENT_TEAM =
+CODE_SIGN_STYLE = Automatic
+
+// NOTE: `//` starts a comment in xcconfig, so URLs use `$()` to break the scheme's slashes.
